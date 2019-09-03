@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="app-entitlements" version="0.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+  <name>AppEntitlements</name>
+  <platform name="ios">
+    <config-file target="*-Entitlements.plist" parent="com.apple.developer.associated-domains">
+      <array>
+        <string>applinks:chauffeur.pro</string>
+<string>applinks:chauffeurs.pro</string>
+      </array>
+    </config-file>
+  </platform>
+</plugin>
